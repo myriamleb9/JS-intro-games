@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+    display: flex;
+  justify-content: center; /* centers vertically (since direction = column) */
+  align-items: center;      /* centers horizontally */
+  flex-direction: column;
+background-color: #e7ecef;
+font-family: "Inter", sans-serif;
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+   height:254px;
+   width: 100%;
+background-image: linear-gradient(to right, rgb(159, 134, 192), rgb(224, 177, 203) );
+
+}
+
+.first-heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;;
+    
+}
+
+.Special-Word {
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    height: 520px;
+    width: 750px;
+    margin-top: 40px;
+    margin-bottom:30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.1);
+     overflow: hidden;
+}
+
+.textarea {
+    all:unset;
+    flex: 2;
+    padding: 30px 20px;
+    font: inherit;
+    resize:none;
+}
+
+
+
+.stats {
+    background-color: #e7ecef ;
+    height: 100%;
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+}
+
+.stat {
+    display: flex;
+    flex: 1 150px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textarea::placeholder {
+    font-weight: 500;
+  color: #959c9f;
+}
+
+.Stat_Number {
+font-size: 35px;
+color:#8b8b8b;
+margin-bottom:40px;
+}
+
+.second-heading {
+color:#333333;
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 300;
+letter-spacing: 2px;;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+   color:#8b8b8b;
+   width: 750px;
+    
+}
+
+.stat:nth-child(1),
+.stat:nth-child(2),
+.stat:nth-child(4) { 
+    border: none;
+}
+
+
+.stat:nth-child(2),
+.stat:nth-child(4) {
+    border-left: 1px solid rgb(0,0,0,0.1);
+}
+
+.stat:nth-child(1),
+.stat:nth-child(2) {
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+}
+
+
