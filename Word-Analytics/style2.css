@@ -36,6 +36,8 @@ background-image: linear-gradient(to right, rgb(159, 134, 192), rgb(224, 177, 20
     
 }
 
+
+
 .Special-Word {
     font-weight: 300;
 }
@@ -87,6 +89,10 @@ background-image: linear-gradient(to right, rgb(159, 134, 192), rgb(224, 177, 20
 font-size: 35px;
 color:#8b8b8b;
 margin-bottom:40px;
+}
+
+.Stat_Number.Limit-number {
+    color: red !important;
 }
 
 .second-heading {
